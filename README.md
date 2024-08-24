@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Astro Rate
+Astro Rate is an innovative app that leverages the power of OpenAI and Pinecone to provide accurate answers to professor lookups. With Astro Rate, you can easily find information about professors and their ratings. 
+
+## Features
+
+- Professor Lookups: Simply enter the name of a professor, and Astro Rate will use the RAG (Retrieve, Answer, Generate) model from OpenAI to provide you with relevant information.
+
+- RateMyProfessor Integration: Astro Rate also allows you to provide a RateMyProfessor link for a professor. The app will scrape the necessary information from the link and add it to the Pinecone database, ensuring up-to-date and comprehensive data.
 
 ## Getting Started
 
-First, run the development server:
+To get started with Astro Rate, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository to your local machine.
+2. Install the required dependencies by running `npm install`.
+3. Set up your OpenAI API credentials and Pinecone API credentials.
+4. Run the app using `npm start`.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Once the app is up and running, you can access it through your preferred web browser. Enter the name of the professor you want to look up, and Astro Rate will provide you with detailed information and ratings.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+We welcome contributions from the community to enhance Astro Rate. If you have any ideas, bug reports, or feature requests, please submit them through the GitHub repository's issue tracker.
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Astro Rate is released under the [MIT License](LICENSE).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This is the Week 5 submission for headstarter's software engineering fellowship.
