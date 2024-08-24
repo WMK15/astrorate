@@ -1,0 +1,64 @@
+{
+  "reviews": [
+    {
+      "professor": "Prof. John Smith",
+      "review": "Great professor! Explains complex concepts clearly and is always willing to help during office hours.",
+      "subject": "Mathematics",
+      "stars": 5
+    },
+    {
+      "professor": "Dr. Emily Chen",
+      "review": "Engaging lectures and interesting assignments. Sometimes the workload can be heavy.",
+      "subject": "Computer Science",
+      "stars": 4
+    },
+    {
+      "professor": "Prof. Michael Johnson",
+      "review": "Knowledgeable but can be intimidating. Exams are very challenging.",
+      "subject": "Physics",
+      "stars": 3
+    },
+    {
+      "professor": "Dr. Sarah Brown",
+      "review": "Fantastic teacher! Makes history come alive with her storytelling approach.",
+      "subject": "History",
+      "stars": 5
+    },
+    {
+      "professor": "Prof. David Lee",
+      "review": "Lectures are a bit dry, but the course material is solid. Fair grader.",
+      "subject": "Economics",
+      "stars": 3
+    },
+    {
+      "professor": "Dr. Lisa Garcia",
+      "review": "Extremely helpful and patient. Great at explaining difficult biological concepts.",
+      "subject": "Biology",
+      "stars": 5
+    },
+    {
+      "professor": "Prof. Robert Taylor",
+      "review": "Tough but fair. Expects a lot from students but also provides excellent feedback.",
+      "subject": "English Literature",
+      "stars": 4
+    },
+    {
+      "professor": "Dr. Amanda White",
+      "review": "Inconsistent in grading and often cancels classes at the last minute.",
+      "subject": "Psychology",
+      "stars": 2
+    },
+    {
+      "professor": "Prof. Thomas Anderson",
+      "review": "Brilliant researcher but not the best teacher. Can be hard to follow in lectures.",
+      "subject": "Chemistry",
+      "stars": 3
+    },
+    {
+      "professor": "Dr. Rachel Green",
+      "review": "Passionate about the subject and it shows. Makes even complex philosophical concepts accessible.",
+      "subject": "Philosophy",
+      "stars": 5
+    }
+  ]
+}
